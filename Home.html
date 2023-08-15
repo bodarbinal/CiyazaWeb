@@ -1,0 +1,451 @@
+<!doctype html>
+<html class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.2.0/tailwind.min.css">
+</head>
+
+<!-- HEADER START -->
+<header class="bg-amber-200 sticky top-0 z-50">
+    <nav class="flex justify-between items-center w-[92%] mx-auto">
+        <div class="relative">
+            <img class="h-20 pb-3 cursor-pointer" src="image/CIZ-B.PNG" alt="">
+        </div>
+        <div
+            class="nav-links duration-500 md:static absolute md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5 bg-amber-200 z-[-1] md:z-auto md:opacity-100 opacity-0">
+
+            <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+                <li><a class="hover:text-orange-600 font-semibold ease-in duration-200" href="#home">HOME</a></li>
+                <li><a class="hover:text-orange-600 font-semibold ease-in duration-200" href="#about">ABOUT US</a></li>
+                <li><a class="hover:text-orange-600 font-semibold ease-in duration-200"
+                        href="#Manufacturer">MANUFACTURER</a></li>
+                <li><a class="hover:text-orange-600 font-semibold ease-in duration-200" href="#contactus">CONTACT US</a>
+                </li>
+            </ul>
+        </div>
+        <div class="flex items-center gap-6">
+            <a href="https://www.facebook.com/ciyaza/" class="text-blue-800"><i class="fa fa-facebook"
+                    aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/invites/contact/?i=fixegojqz8mc&utm_content=35e0q12"
+                class="text-pink-600"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://twitter.com" class="text-sky-600"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://in.pinterest.com/ciyaza/" class="text-red-800"><i class="fa fa-pinterest"
+                    aria-hidden="true"></i></a>
+            <span class="text-3xl cursor-pointer md:hidden block mx-2">
+                <ion-icon onclick="Menu(this)" name="menu"></ion-icon>
+            </span>
+        </div>
+    </nav>
+</header>
+<!-- HEADER END -->
+
+<body class="font-sans bg-amber-100">
+    <!-- HOME START -->
+    <!-- BANER START -->
+    <section id="home">
+        <div>
+            <img class="w-full h-auto bg-cover bg-center" src="image/collection_banner.jpg" alt="">
+        </div>
+    </section>
+    <!-- BANER END -->
+
+    <!-- GALLERY START -->
+    <div class="container max-w-screen-2xl mx-auto px-4 py-16 relative">
+        <h1 class="font-bold text-center mb-12 text-3xl underline underline-offset-8">
+            GALLERY
+        </h1>
+        <div class="flex flex-col md:flex-row gap-2">
+            <div class="flex flex-1 flex-col">
+                <div class="flex flex-1 flex-col relative group">
+                    <img class="block h-full w-full rounded-lg object-cover object-center shadow-xl hover:shadow-2xl"
+                        src='image/kada.webp' alt=''>
+                    <div
+                        class="flex justify-center items-center opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-20 absolute top-0 left-0 h-full w-full">
+                    </div>
+                    <div
+                        class="absolute top-0 left-0 w-full h-full flex justify-center items-end opacity-0 hover:opacity-100">
+                        <div class="flex-row text-center">
+                            <h1 class="text-black font-bold text-3xl">BRESLET</h1>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-1">
+                <div class="grid grid-cols-2 gap-2">
+                    <div class="relative group">
+                        <img class="block h-full w-full rounded-lg object-cover object-center shadow-xl hover:shadow-2xl"
+                            src='image/earring.webp' alt=''>
+                        <div
+                            class="flex justify-center items-center opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-20 absolute top-0 left-0 h-full w-full">
+                        </div>
+                        <div
+                            class="absolute top-0 left-0 w-full h-full flex justify-center items-end opacity-0 hover:opacity-100">
+                            <div class="flex-row text-center">
+                                <h1 class="text-black font-bold text-3xl">EARRINGS</h1>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative group">
+                        <img class="block h-full w-full rounded-lg object-cover object-center shadow-xl hover:shadow-2xl"
+                            src='image/bangal.webp' alt=''>
+                        <div
+                            class="flex justify-center items-center opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-20 absolute top-0 left-0 h-full w-full">
+                        </div>
+                        <div
+                            class="absolute top-0 left-0 w-full h-full flex justify-center items-end opacity-0 hover:opacity-100">
+                            <div class="flex-row text-center">
+                                <h1 class="text-black font-bold text-3xl">BANGLE</h1>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative group">
+                        <img class="block h-full w-full rounded-lg object-cover object-center shadow-xl hover:shadow-2xl"
+                            src='image/pendal.png' alt=''>
+                        <div
+                            class="flex justify-center items-center opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-20 absolute top-0 left-0 h-full w-full">
+                        </div>
+                        <div
+                            class="absolute top-0 left-0 w-full h-full flex justify-center items-end opacity-0 hover:opacity-100">
+                            <div class="flex-row text-center">
+                                <h1 class="text-black font-bold text-3xl">PENDANT</h1>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative group">
+                        <img class="block h-full w-full rounded-lg object-cover object-center shadow-xl hover:shadow-2xl"
+                            src='image/m-b.jpg' alt=''>
+                        <div
+                            class="flex justify-center items-center opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-20 absolute top-0 left-0 h-full w-full">
+                        </div>
+                        <div
+                            class="absolute top-0 left-0 w-full h-full flex justify-center items-end opacity-0 hover:opacity-100">
+                            <div class="flex-row text-center">
+                                <h1 class="text-black font-bold text-3xl">MAN'S BRESLET</h1>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- GALLERY END -->
+    <!-- HOME END -->
+
+    <!-- ABOUT US START -->
+
+    <section id="about">
+        <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
+            <div>
+                <h1 class="font-bold text-center mb-12 mt-10 text-3xl underline underline-offset-8">
+                    ABOUT US
+                </h1>
+            </div>
+
+            <div class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+                <img src="image/Vipulbhai.jpg" alt=""
+                    class="h-96 shadow-2xl rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+
+                <div>
+                    <h1 class="font-bold mb-5 text-2xl">
+                        MR. Vipulbhai Bhuva
+                    </h1>
+                    <p>Mr. Vipul Bhuva is MD & CEO of Parth ornaments Pvt Ltd, He is a Commerce graduate and having 17
+                        (seventeen) years of experience in jewellery field and one of the pioneer of the organization,
+                        His excellent management skill is reflecting in the growth of company in a very short period of
+                        time, he is believing in innovation in a context of product, design, process and in a test of
+                        jewellery with the class fiishing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container max-w-screen-2xl mx-auto px-4 py-16 relative">
+        <h1 class="font-bold text-center mb-12 text-3xl underline underline-offset-8">
+            DIRECTOR
+        </h1>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <div>
+                <img class="h-auto max-w-full rounded-lg shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+                    src="image/Alpeshbhai.jpg" alt="">
+                <p class="font-bold text-center mb-12 text-1xl mt-7">Mr. Alpeshbhai Bhuva <br> <span
+                        class="font-normal">Director</span> <br> <span class="font-normal">(Silver Division)</span></p>
+            </div>
+            <div>
+                <img class="h-auto max-w-full rounded-lg shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+                    src="image/Yogesh.jpg" alt="">
+                <p class="font-bold text-center mb-12 text-1xl mt-7">Mr. Yogeshbhai Dholariya <br> <span
+                        class="font-normal">Production Head</span> <br> <span class="font-normal">(Regular
+                        Variant)</span></p>
+            </div>
+            <div>
+                <img class="h-auto max-w-full rounded-lg shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+                    src="image/Pratikbhai.jpeg" alt="">
+                <p class="font-bold text-center mb-12 text-1xl mt-7">Mr. Pratikbhai Vekariya <br> <span
+                        class="font-normal">Branding, strategies</span> <br> <span class="font-normal">& Development
+                        Head</span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT US END -->
+
+    <!-- MANUFACTURER START -->
+
+    <section id="Manufacturer">
+        <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
+            <div>
+                <h1 class="font-bold text-center mb-12 mt-10 text-3xl underline underline-offset-8">
+                    MANUFACTURER
+                </h1>
+            </div>
+
+            <div>
+                <strong class="text-2xl">JEWELLERY MANUFACTURING PROCESS</strong>
+                <p class="mt-3">
+                    <strong>1.ORDER RECEIVE–</strong> Once the order is precaused it is forwarded to production team.
+                    All necessary raw
+                    materials, diamonds, gemstones are selected for each other.
+                </p>
+                <p class="mt-3">
+                    <strong>2.WAX MODEL–</strong> The production process designs in the wax department. Each and every
+                    jewellery design
+                    has its own rubber model for making for making replica. The wax is injected in the rubber model &
+                    after the temperature cool down, the wax is removed from the model. The wax then used to mold off
+                    the cooled wax. There is a separate wax used for each metal type, color & karat.
+                </p>
+                <p class="mt-3">
+                    <strong>3.CASTING–</strong> after the tree setup is complete, the liquid investment (POP) is hovered
+                    over the wax
+                    tree. After the investment hardens, the cylinder is placed inside the ove. The wax melts & desired
+                    metal is poured into the cylinder in the liquid form when the metal is cooled down the metal tree is
+                    taken out.
+                </p>
+                <p class="mt-3">
+                    <strong>4.ASSEMBLY–</strong> the metal links are connected together after the piece has been
+                    assembled. It is
+                    measured to confirm that it is of the correct length & the number of stones is correctly based on
+                    the order. Then these assembled links are soldered together. Any locks needed are attached as well
+                    as any last minute fitting or touchup is done.
+                </p>
+                <p class="mt-3">
+                    <strong>5.POLISHING–</strong> The soldered piece is not cleaned & polished and has a quality check.
+                </p>
+                <p class="mt-3">
+                    <strong>6.STONE SETTING–</strong> The stone setter carefully sets each diamond to ensure the
+                    security and makes sure
+                    that the links do not compromise the piece and then transferred back for final polishing and
+                    finishing.
+                </p>
+
+            </div>
+
+            <section class="py-8 px-4">
+                <div class="flex flex-wrap -mx-4">
+                    <div class="hidden md:block md:w-1/2 px-4">
+                        <div class="h-full w-full bg-cover rounded shadow-md"
+                            style="background-image: url('image/manufacturing_edited.webp')">
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 h-auto px-4">
+                        <div class="mb-8"><img class="rounded shadow-md" src="image/ring-manu.jpg" alt=""></div>
+                        <div><img class="rounded shadow-md" src="image/jewelry-repair-toronto.jpg" alt=""></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- MANUFACTURER END -->
+
+    <!-- CONTACT START -->
+
+    <section id="contactus">
+        <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
+            <div>
+                <h1 class="font-bold text-center mt-10 mb-12 text-3xl underline underline-offset-8">
+                    CONTACT US
+                </h1>
+            </div>
+            <div class="container mx-auto md:px-6">
+                <section class="mb-32 text-center">
+                    <div class="md:px-12">
+                        <div class="container mx-auto xl:px-32">
+                            <div class="grid items-center lg:grid-cols-2">
+                                <div class="mb-12 md:mt-12 lg:mt-0 lg:mb-0">
+                                    <div
+                                        class="relative z-[1] block rounded-lg bg-[hsla(0,0%,100%,0.55)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] dark:bg-[hsla(0,0%,5%,0.7)] dark:shadow-black/20 md:px-12 lg:-mr-14">
+                                        <h2 class="mb-12 text-3xl font-bold">Contact us</h2>
+                                        <form>
+                                            <div class="relative mb-6" data-te-input-wrapper-init>
+                                                <input type="text"
+                                                    class="peer block min-h-[auto] w-full rounded border-2 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:peer-focus:text-primary [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                                                    id="exampleInput90" placeholder="Name" />
+                                                <label
+                                                    class="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-primary"
+                                                    for="exampleInput90">Name
+                                                </label>
+                                            </div>
+                                            <div class="relative mb-6" data-te-input-wrapper-init>
+                                                <input type="email"
+                                                    class="peer block min-h-[auto] w-full rounded border-2 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:peer-focus:text-primary [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                                                    id="exampleInput91" placeholder="Email address" />
+                                                <label
+                                                    class="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-primary"
+                                                    for="exampleInput91">Email address
+                                                </label>
+                                            </div>
+                                            <div class="relative mb-6" data-te-input-wrapper-init>
+                                                <textarea
+                                                    class="peer block min-h-[auto] w-full rounded border-2 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                                                    id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Your message"></textarea>
+                                                <label for="exampleFormControlTextarea1"
+                                                    class="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-primary">Message</label>
+                                            </div>
+                                            <button type="button" data-te-ripple-init data-te-ripple-color="light"
+                                                class="inline-block w-full rounded bg-primary px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal bg-blue-900 text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] lg:mb-0">
+                                                Send
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="md:mb-12 lg:mb-0">
+                                    <div class="relative h-[700px] rounded-lg shadow-lg dark:shadow-black/20">
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8533.103727306656!2d72.85080584122713!3d21.207383767211788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f02346c31d1%3A0x1b5b98a5700ff81e!2sCIYAZA%20-%20An%20Exclusive%20Rose%20Gold%20Collection!5e0!3m2!1sen!2sin!4v1689937024071!5m2!1sen!2sin"
+                                            class="absolute left-0 top-0 h-full w-full rounded-lg" frameborder="0"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT END -->
+
+    <!-- FOOTER START -->
+    <footer>
+        <div class="p-10 bg-amber-200 text-black">
+            <div class="max-w-7xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
+                    <div class="mb-5">
+                        <strong class="text-5xl">CIYAZA</strong>
+                        <br>
+                        <br>
+                        <p class="font-medium">
+                            Parth House Behind Bhavani <br> Temple, Matavadi, L.H Road,<br> Varachha, Surat -
+                            395006,<br> (Gujarat) India.<br><br>
+                            <strong>Phone :</strong> +91 9033123999<br>
+                            <strong>Email :</strong> customer.care@ciyaza.com<br>
+                        </p>
+                    </div>
+                    <div class="mb-5">
+                        <strong>
+                            <h4 class="pb-4 text-2xl">Links</h4>
+                        </strong>
+                        <ul>
+                            <li class="pb-4"><a href="Home.html" class="hover:text-orange-600 font-semibold">>>
+                                    Home</a>
+                            </li>
+                            <li class="pb-4"><a href="#about" class="hover:text-orange-600 font-semibold">>> About
+                                    Us</a>
+                            </li>
+                            <li class="pb-4"><a href="#Manufacturer" class="hover:text-orange-600 font-semibold">>>
+                                    Manufacturer</a>
+                            </li>
+                            <li class="pb-4"><a href="#contactus" class="hover:text-orange-600 font-semibold">>> Contact
+                                    Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mb-5">
+                        <strong>
+                            <h4 class="pb-4 text-2xl">Other</h4>
+                        </strong>
+                        <ul>
+                            <li class="pb-4"><a href="#" class="hover:text-orange-600 font-semibold">>> RV</a></li>
+                            <li class="pb-4"><a href="#" class="hover:text-orange-600 font-semibold">>> Kesva</a>
+                            </li>
+                            <li class="pb-4"><a href="#" class="hover:text-orange-600 font-semibold">>> Aarya</a>
+                            </li>
+                            <li class="pb-4"><a href="#" class="hover:text-orange-600 font-semibold">>> Ciyaza</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mb-5">
+                        <strong>
+                            <h4 class="pb-4 text-2xl">Join Our Newsletter</h4>
+                        </strong>
+                        <p class="pb-2 font-medium">Join 25,000+ others and never miss out on new tips, tutorials,
+                            and
+                            more</p>
+                        <form class="flex flex-row flex-wrap mt-5">
+                            <input type="text" class="border-2 border-black text-black w-2/3 p-2"
+                                placeholder="Entar Your Email">
+                            <button class="p-2 w-1/3 bg-black text-white"><a href="#">Subscribe</a></button>
+                        </form>
+                        <div class="text-xl mt-8">
+                            <a href="https://www.facebook.com/ciyaza/"
+                                class="w-10 h-10 rounded-full mx-1 inline-block pt-1 text-blue-800"><i
+                                    class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/invites/contact/?i=fixegojqz8mc&utm_content=35e0q12"
+                                class="w-10 h-10 rounded-full mx-1 inline-block pt-1 text-pink-600"><i
+                                    class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com"
+                                class="w-10 h-10 rounded-full mx-1 inline-block pt-1 text-sky-600"><i
+                                    class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://in.pinterest.com/ciyaza/"
+                                class="w-10 h-10 rounded-full mx-1 inline-block pt-1 text-red-800"><i
+                                    class="fa fa-pinterest" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <button id="to-top-button" onclick="goToTop()" title="Go To Top"
+        class="hidden fixed z-90 bottom-8 right-8 border-0 w-16 h-16 rounded-lg drop-shadow-md bg-amber-200 text-black text-3xl font-bold">&uarr;</button>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script>
+        function Menu(e) {
+            let list = document.querySelector('.nav-links');
+            e.name === 'menu' ? (e.name = 'close', list.classList.add('top-[5px]'), list.classList.add('opacity-100')) : (e.name = 'menu', list.classList.remove('top-[10px]'), list.classList.remove('opacity-100'))
+        }
+    </script>
+    
+    <script>
+        var toTopButton = document.getElementById("to-top-button");
+        window.onscroll = function () {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                toTopButton.classList.remove("hidden");
+            } else {
+                toTopButton.classList.add("hidden");
+            }
+        }
+        function goToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+
+</html>
